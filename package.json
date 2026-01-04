@@ -1,6 +1,7 @@
 {
-  "name": "render-protected-site",
+  "name": "frontend-loader",
   "version": "1.0.0",
+  "main": "server.js",
   "type": "module",
   "scripts": {
     "start": "node server.js"
@@ -9,6 +10,13 @@
     "node": "18.x"
   },
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "cors": "^2.8.5",
+    "cookie-parser": "^1.4.6",
+    "helmet": "^7.0.0",
+    "node-fetch": "^3.3.2",
+    "geoip-lite": "^1.4.2"
   }
 }
+
